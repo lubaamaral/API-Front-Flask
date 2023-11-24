@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 API_KEY = "CVGjNdJjj1qG8RGXNjetbEFsCtXTpzq2"
-BASE_URL = "https://eu.private5g.ericsson.net/public/v2/organization/ntt-brazil/site/ntt-br-lab/"
+BASE_URL = "https://.com"
 
 def format_json_response(data):
     return Response(json.dumps(data, indent=4), mimetype='application/json')
